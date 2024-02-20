@@ -1,0 +1,98 @@
+html {
+
+  font-size: 20px;
+  scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(223, 187, 215);
+    margin: 0;
+    box-sizing: border-box;
+    padding: 1.8vw;
+    font-family: Helvetica, Arial, sans-serif;
+    color: red;
+    margin: 10vw 0 0 0;
+    font-size: 1.4rem;
+}
+
+.showme {
+    /* border: solid 1px red; */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+
+p {
+    font-size: 48px;
+    font-size: 1rem;
+    line-height: 1.2rem ;
+    /* text-indent: 1rem; */
+}
+
+header {
+    position: fixed;
+    top: 0;
+    right: 2vw;
+
+}
+
+.w3-col {
+    padding: 50px;
+    padding: 2vw;
+}
+
+.w3-col img {
+    width: 100%;
+}
+
+.col50 {
+    width: 50%;
+}
+
+footer {
+    text-align: center;
+}
+
+#nav-contact {
+    position: fixed;
+    bottom: 2vw;
+    right: 2vw;
+}
+
+#nav-contact a {
+    color: red;
+    text-decoration: none;
+    border: solid 2px red;
+    padding: 5px 10px 5px 10px; 
+}
+
+#nav-contact a:hover {
+    color: black;
+    border: solid 2px black;
+}
+
+ul {
+   margin: 0 0 0 1.8vw;
+   padding: 0;
+}
+
+li {
+   margin: 0;
+   padding: 0;
+}
+
+li a {
+   text-decoration: none;
+   color: red;
+}
+
+li a:hover {
+   text-decoration: underline;
+   color: black;
+}
